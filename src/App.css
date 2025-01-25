@@ -1,0 +1,5 @@
+import '@/App.css'; 
+Ensure App.css is imported correctly
+
+/* Import Playwrite IN font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
