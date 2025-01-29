@@ -1,19 +1,17 @@
+import React from "react";
+import '@/App.css';  // Import global styles
+import 'font-awesome/css/font-awesome.min.css';  // Import font awesome icons
+import { Layout } from "@/components/Layout";  // Capitalize Layout
+import { Sidebar } from "@/components/Sidebar";
+import { MainContent } from '@/components/MainContent';  // Import MainContent here
+import { Suggestions } from '@/components/Suggestions';
 
-import LoginPage from "@/components/LoginPage";
-import Navbar from "@/components/Navbar";
-
-const App = () => {
-  return (
-    <div className="font-sans min-h-screen flex flex-col bg-gray-100">
-      {/* Navbar */}
-      <Navbar />
-
-      {/* Main Content */}
-      <main className="flex flex-1 justify-center items-center p-4">
-        <LoginPage />
-      </main>
-    </div>
-  );
-};
+const App: React.FC = () => (
+  <Layout>
+    <Sidebar />
+    <MainContent />  {/* MainContent includes Post */}
+    <Suggestions />
+  </Layout>
+);
 
 export default App;
