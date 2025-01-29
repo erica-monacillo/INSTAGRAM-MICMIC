@@ -13,6 +13,7 @@ export interface MenuItemType {
     { label: "Notifications", icon: "heart" },
     { label: "Create", icon: "plus" },
     { label: "Profile", icon: "user" },
+    { label: "Threads", icon: "home" },
   ];
   
   

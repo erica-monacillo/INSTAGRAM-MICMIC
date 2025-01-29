@@ -5,7 +5,7 @@ export const storiesData = [
     { username: "kerbsbual", image: "https://placehold.co/100x100" },
     { username: "pook_kyle", image: "https://placehold.co/100x100" },
     { username: "coyenz25", image: "https://placehold.co/100x100" },
-    { username: "hsojieekun", image: "https://placehold.co/100x100" },
-    { username: "belleits", image: "https://placehold.co/100x100" },
+    { username: "hatdog", image: "https://placehold.co/100x100" },
+    { username: "jheygulde", image: "https://placehold.co/100x100" },
   ];
   
