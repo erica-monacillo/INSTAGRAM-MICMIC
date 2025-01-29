@@ -24,7 +24,7 @@ export const Post: React.FC = () => (
     {/* Instagram-Style Post Image */}
     <div className="w-full aspect-[1/1] overflow-hidden">
       <img
-        src="https://i.pinimg.com/736x/21/93/e5/2193e5b55dbfa5aeeb993ef06fdfcd3d.jpg"
+        src="https://i.pinimg.com/736x/0e/3f/e7/0e3fe7f3e1da1ac7baeab1947dfd08c3.jpg"
         alt="Post"
         className="w-full h-full object-cover"
       />
