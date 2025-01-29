@@ -23,7 +23,7 @@ export const Post: React.FC = () => (
 
     {/* Post Image */}
     <img
-      src="https://placehold.co/300x300"
+      src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-jumbo.jpg?quality=75&auto=webp/300x300"
       alt="Post"
       className="w-full h-auto rounded-lg"
     />
