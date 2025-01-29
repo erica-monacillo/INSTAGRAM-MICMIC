@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "@/components/ui/Card";
 
 export const Post: React.FC = () => (
-  <Card className="relative">
+  <Card className="relative w-full max-w-[600px] mx-auto"> {/* Center and set max width */}
     {/* User Profile */}
     <div className="flex items-center space-x-3 p-2">
       <img
@@ -12,8 +12,8 @@ export const Post: React.FC = () => (
       />
       <div className="flex items-center space-x-2">
         {/* Badge check icon */}
-        <i className="fa-solid fa-badge-check text-blue-500"></i>
-        
+        <i className="fa-solid fa-circle-check text-blue-500"></i>
+
         <div>
           <span className="font-bold font-roboto">jennierubyjane</span>
           <span className="text-sm text-gray-400 font-roboto"> • 11h</span>
@@ -21,12 +21,14 @@ export const Post: React.FC = () => (
       </div>
     </div>
 
-    {/* Post Image */}
-    <img
-      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlr02OlCnqYBfDO0fY0uFpzQgC5NselsI3w&s/300x300"
-      alt="Post"
-      className="w-full h-auto rounded-lg"
-    />
+    {/* Instagram-Style Post Image */}
+    <div className="w-full aspect-[1/1] overflow-hidden">
+      <img
+        src="https://i.pinimg.com/736x/21/93/e5/2193e5b55dbfa5aeeb993ef06fdfcd3d.jpg"
+        alt="Post"
+        className="w-full h-full object-cover"
+      />
+    </div>
 
     {/* Post Interaction */}
     <div className="flex justify-center space-x-1 mt-2">
