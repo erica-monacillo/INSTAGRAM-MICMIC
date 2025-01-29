@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "@/components/ui/card";
+import { Card } from "@/components/ui/Card";
 
 export const Post: React.FC = () => (
   <Card className="relative">
@@ -23,7 +23,7 @@ export const Post: React.FC = () => (
 
     {/* Post Image */}
     <img
-      src="https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-jumbo.jpg?quality=75&auto=webp/300x300"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOlr02OlCnqYBfDO0fY0uFpzQgC5NselsI3w&s/300x300"
       alt="Post"
       className="w-full h-auto rounded-lg"
     />
