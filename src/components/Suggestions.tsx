@@ -1,5 +1,5 @@
 import React from "react";
-import { suggestions } from "@/components/SuggestionData";
+import { suggestions } from "@/components/suggestionData";
 import { Suggestion } from "./Suggestion";
 
 export const Suggestions: React.FC = () => (
