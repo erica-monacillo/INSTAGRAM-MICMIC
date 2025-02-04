@@ -9,7 +9,7 @@ import { Suggestions } from '@/components/Suggestions';
 const App: React.FC = () => (
   <Layout>
     <Sidebar />
-    <MainContent />  {/* MainContent includes Post */}
+    <MainContent />
     <Suggestions />
   </Layout>
 );

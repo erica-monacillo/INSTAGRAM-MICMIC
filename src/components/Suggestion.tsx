@@ -18,7 +18,7 @@ export const Suggestion: React.FC<SuggestionProps> = ({ username, followers, pro
           className="w-12 h-12 bg-gray-300 rounded-full object-cover"
         />
         <div>
-          <span className="block font-semibold text-sm">{username}</span>
+          <span className="block font-semibold text-white text-sm">{username}</span>
           <span className="block text-xs text-gray-500">
             Followed by{" "}
             {followers.map((follower, index) => (
@@ -31,7 +31,7 @@ export const Suggestion: React.FC<SuggestionProps> = ({ username, followers, pro
           </span>
         </div>
       </div>
-      <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-1 text-sm rounded">
+      <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-1 text-sm rounded text-blue-500">
         Follow
       </Button>
     </li>

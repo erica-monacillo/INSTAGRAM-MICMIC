@@ -8,7 +8,7 @@ interface MenuItemProps {
 }
 
 export const MenuItem: React.FC<MenuItemProps> = ({ label, icon, notification }) => (
-  <li className="flex items-center space-x-2">
+  <li className="flex items-center text-white space-x-2">
     <i className={`fa fa-${icon}`}></i> {/* Dynamically render the Font Awesome icon based on the passed icon name */}
     <span>{label}</span>
     {notification && (
