@@ -9,8 +9,8 @@ interface SuggestionProps {
 
 export const Suggestion: React.FC<SuggestionProps> = ({ username, followers, profilePic }) => {
   return (
-    <li className="flex items-center justify-between">
-      <div className="flex items-center space-x-2">
+    <li className="flex items-center justify-between w-full">
+      <div className="flex items-center space-x-3 flex-1">
         {/* Profile picture */}
         <img 
           src={profilePic} 
@@ -31,7 +31,7 @@ export const Suggestion: React.FC<SuggestionProps> = ({ username, followers, pro
           </span>
         </div>
       </div>
-      <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-1 text-sm rounded">
+      <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-1 text-sm rounded ml-auto">
         Follow
       </Button>
     </li>

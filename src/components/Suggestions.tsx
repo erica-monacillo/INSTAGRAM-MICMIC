@@ -5,7 +5,7 @@ import { suggestions } from "@/components/suggestionData";
 import { Suggestion } from "./Suggestion";
 
 export const Suggestions: React.FC = () => (
-  <div className="w-1/4 p-4 border-l border-border">
+  <div className="w-1/4 p-4 border-l border-border mr-32">
     {/* Account Owner Info */}
     <AccountOwner
       displayName="carlos_adet"
@@ -14,8 +14,8 @@ export const Suggestions: React.FC = () => (
     />
 
     <div className="mt-6 flex justify-between items-center">
-      <h2 className="text-lg font-semibold text-gray-500 font-roboto">Suggested for you</h2>
-      <button className="text-gray-500 hover:text-blue-700 font-semibold font-roboto">
+      <h2 className="text-lg font-semibold text-gray-500 font-roboto ">Suggested for you</h2>
+      <button className="text-gray-500 hover:text-blue-700 font-semibold font-roboto ml-auto pr-2">
         See All
       </button>
     </div>
