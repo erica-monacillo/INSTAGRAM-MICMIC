@@ -1,3 +1,6 @@
+import { faCircleCheck, faEllipsisH } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 
 interface PostProps {
@@ -33,22 +36,30 @@ const Post: React.FC<PostProps> = ({
   };
 
   return (
-    <div className="relative w-full max-w-[600px] mx-auto p-4">
-      <div className="flex items-center space-x-3 p-2">
+    <div className="relative w-full max-w-[568px] mx-[228px] p-6">
+      <div className="flex items-center space-x-3 p-2 relative -ml-5">
+        {/* Three Dots (Settings Button) */}
+        <div className="absolute right-0 top-0 p-2 cursor-pointer">
+          <FontAwesomeIcon
+            icon={faEllipsisH}
+            className="text-white w-6 h-6"
+          />
+        </div>
         <img
           src={profileImage}
           alt="Profile"
           className="w-10 h-10 rounded-full"
         />
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 ml-4">
           <div className="flex items-center space-x-1">
-            <span className="font-roboto font-bold text-white">{username}</span>
+            <span className="font-roboto font-bold text-white ">{username}</span>
+            <FontAwesomeIcon icon={faCircleCheck} className="text-blue-500" w-4 h-4 />
           </div>
           <span className="font-roboto text-sm text-gray-400"> • {timeAgo}</span>
         </div>
       </div>
 
-      <div className="relative w-full aspect-[1/1] overflow-hidden">
+      <div className="relative w-full aspect-[3/4] overflow-hidden mt-2">
         <img
           src={images[currentImageIndex]}
           alt={`Post ${currentImageIndex + 1}`}
@@ -57,17 +68,17 @@ const Post: React.FC<PostProps> = ({
         {images.length > 1 && currentImageIndex > 0 && (
           <button
             onClick={handlePrev}
-            className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 p-2 rounded-full"
+            className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 p-2 rounded-full flex justify-center items-center"
           >
-            &#9664;
+            <FontAwesomeIcon icon={faChevronLeft} className="text-gray-400 w-4 h-4" />
           </button>
         )}
-        {images.length > 1 && (
+        {images.length > 1 && currentImageIndex < images.length - 1 && (
           <button
             onClick={handleNext}
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 p-2 rounded-full"
+            className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 p-2 rounded-full flex justify-center items-center"
           >
-            &#9654;
+            <FontAwesomeIcon icon={faChevronRight} className="text-gray-400 w-4 h-4" />
           </button>
         )}
       </div>
