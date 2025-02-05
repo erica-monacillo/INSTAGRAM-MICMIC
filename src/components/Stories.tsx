@@ -10,7 +10,7 @@ export const Stories: React.FC = () => (
           alt={story.username}
           className="w-16 h-16 rounded-full border-2 border-pink-500"
         />
-        <span className="font-roboto text-sm mt-2 text-center">{story.username}</span>
+        <span className="font-roboto text-sm mt-2 text-white text-center">{story.username}</span>
       </div>
     ))}
   </div>

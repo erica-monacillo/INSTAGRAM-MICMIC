@@ -18,7 +18,7 @@ export const Suggestion: React.FC<SuggestionProps> = ({ username, followers, pro
           className="w-12 h-12 bg-gray-300 rounded-full object-cover"
         />
         <div>
-          <span className="block font-semibold text-sm">{username}</span>
+          <span className="block font-semibold text-white text-sm">{username}</span>
           <span className="block text-xs text-gray-500">
             Followed by{" "}
             {followers.map((follower, index) => (
