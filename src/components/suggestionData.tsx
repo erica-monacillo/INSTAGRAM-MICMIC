@@ -7,7 +7,6 @@ export const suggestions = [
   {
     username: "alex_23",
     followers: [
-      "andrew_boys", 
       "gellie_p",
     ],
     profilePic:"https://i.pinimg.com/236x/6a/e5/e9/6ae5e9450a8157da0f19e5281cdc382a.jpg" 
@@ -16,9 +15,7 @@ export const suggestions = [
     username: "karl_mad",
     followers: [
       "louie",  
-      "makyrios", 
-      "notsokyuu", 
-      "spdr_knt", 
+      "makyrios",
       "alvdiz",
     ],
     profilePic:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4KJ4cMfSsKCsErVOjjmsOduCGhi1zLOmrFw&s"
@@ -26,7 +23,6 @@ export const suggestions = [
   {
     username: "gelachanhime",
     followers: [
-      "chillaxin_04", 
       "lisa_pangy", 
       "gerald_vegz"
     ],
@@ -36,7 +32,6 @@ export const suggestions = [
     username: "kev_aguin",
     followers: [
       "ces_rivera", 
-      "veron_fern", 
       "cyspdrr",  
       "ate_maria"
     ],
@@ -44,7 +39,6 @@ export const suggestions = [
   {
     username: "mari_fer",
     followers: [
-      "joey_beni", 
       "bea_qui", 
       "popowwl",  
     ],

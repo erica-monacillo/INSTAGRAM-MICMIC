@@ -7,7 +7,7 @@ interface AccountOwnerProps {
 }
 
 export const AccountOwner: React.FC<AccountOwnerProps> = ({ username, displayName, profilePic }) => (
-  <div className="flex items-center justify-between mb-4 mt-4">
+  <div className="flex justify-between items-center w-full mb-4 mt-4">
     {/* Profile Picture and Username/Display Name */}
     <div className="flex items-center space-x-3">
       <img className="w-12 h-12 rounded-full" src={profilePic} alt={`${displayName}'s profile`} />
@@ -18,7 +18,7 @@ export const AccountOwner: React.FC<AccountOwnerProps> = ({ username, displayNam
     </div>
 
     {/* Switch Button with Blue Text */}
-    <button className="text-blue-500 hover:text-blue-700 font-semibold font-roboto ml-10">
+    <button className="text-blue-500 hover:text-blue-700 font-semibold font-roboto ml-auto pr-2">
       Switch
     </button>
   </div>

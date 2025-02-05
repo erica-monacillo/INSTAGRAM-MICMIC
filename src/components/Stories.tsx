@@ -2,7 +2,7 @@ import React from "react";
 import { storiesData } from "@/components/storiesData";
 
 export const Stories: React.FC = () => (
-    <div className="flex justify-center items-center space-x-5 overflow-x-auto p-3 w-full">
+    <div className="flex justify-start items-center space-x-5 overflow-x-auto p-3 w-full ml-40">
     {storiesData.map((story, index) => (
       <div key={index} className="flex flex-col items-center">
         <img
