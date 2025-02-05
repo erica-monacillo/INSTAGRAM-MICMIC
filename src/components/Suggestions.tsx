@@ -1,8 +1,9 @@
-// Suggestions.tsx
 import React from "react";
 import { AccountOwner } from "@/components/AccountOwner"; // Adjust according to your folder structure
 import { suggestions } from "@/components/suggestionData";
 import { Suggestion } from "./Suggestion";
+import Footer from "./Footer";
+
 
 export const Suggestions: React.FC = () => (
   <div className="w-1/4 p-4 border-l border-border mr-32">
@@ -20,7 +21,7 @@ export const Suggestions: React.FC = () => (
       </button>
     </div>
 
-    <ul className="mt-4 space-y-2 font-roboto">
+    <ul className="mt-4 space-y-2 font-roboto mb-20"> {/* Added margin-bottom here */}
       {suggestions.map((user) => (
         <Suggestion
           key={user.username}
@@ -30,5 +31,8 @@ export const Suggestions: React.FC = () => (
         />
       ))}
     </ul>
+
+    {/* Footer Component */}
+    <Footer />
   </div>
 );
