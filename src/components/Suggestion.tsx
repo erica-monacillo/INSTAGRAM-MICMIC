@@ -31,7 +31,7 @@ export const Suggestion: React.FC<SuggestionProps> = ({ username, followers, pro
           </span>
         </div>
       </div>
-      <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-1 text-sm rounded ml-auto">
+      <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/80 px-4 py-1 text-blue-500 text-sm rounded ml-auto">
         Follow
       </Button>
     </li>

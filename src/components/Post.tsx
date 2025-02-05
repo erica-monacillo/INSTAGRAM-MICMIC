@@ -7,6 +7,7 @@ import {
   faCircleCheck,
   faChevronLeft,
   faChevronRight,
+  faEllipsisH,
 } from "@fortawesome/free-solid-svg-icons";
 import { faHeart as faHeartRegular } from "@fortawesome/free-regular-svg-icons";
 
@@ -48,9 +49,14 @@ const Post: React.FC<PostProps> = ({
   };
 
   return (
-    <div className="relative w-full max-w-[600px] mx-auto p-4">
+    <div className="relative w-full max-w-[568px] mx-[228px] p-6">
       {/* User Profile */}
-      <div className="flex items-center space-x-3 p-2">
+      <div className="flex items-center space-x-3 p-2 relative">
+        {/* Three Dots (Settings Button) */}
+        <div className="absolute right-0 top-0 p-2 cursor-pointer">
+          <FontAwesomeIcon icon={faEllipsisH} className="text-white w-5 h-5"
+          />
+        </div>
         <img
           src={profileImage}
           alt="Profile"
@@ -66,7 +72,7 @@ const Post: React.FC<PostProps> = ({
       </div>
 
       {/* Post Image Carousel */}
-      <div className="relative w-full aspect-[1/1] overflow-hidden">
+      <div className="relative w-full aspect-[3/4] overflow-hidden">
         <img
           src={images[currentImageIndex]} // Display the current image
           alt={`Post ${currentImageIndex + 1}`}
