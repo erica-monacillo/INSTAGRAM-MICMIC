@@ -1,2 +1,3 @@
 # lec1-setup-env
- activity
+ school activity
+ micmic a website using React Vite and Tailwind CSS
