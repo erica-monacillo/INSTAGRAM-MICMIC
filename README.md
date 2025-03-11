@@ -1,7 +1,6 @@
-<h1 align="center">Instagram Micmic</h1>
-<p align="center">
-  <img width="150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png"/>
-</p>
+h1>Welcome to <span class="highlight">Eshiro Flex</span> – The Ultimate Shoe Shopping Experience!</h1>
+<img src="https://i.imghippo.com/files/chP3718kF.png" alt="Eshiro Flex">
+<p>At <span class="highlight">Eshiro Flex</span>, we believe that shoes are more than just footwear—they are an extension of your personality, a statement of style, and a key to comfort.</p>
 
 ## About The Project  
 
