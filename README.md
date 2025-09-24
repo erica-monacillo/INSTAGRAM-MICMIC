@@ -1,5 +1,3 @@
-
-
 ## About The Project  
 
 Instagram is one of the leading social media platforms globally, designed to connect people through photos, videos, and creative content. It offers users a seamless way to share moments, express creativity, and engage with a vibrant community.  
@@ -21,4 +19,61 @@ The project focuses on the visual and structural aspects of Instagram, providing
 
 This is the repository for the Instagram Micmic frontend.
 The base was created with React + TypeScript + Vite. It's written in React and Typescript.
+
+# INSTAGRAM-MICMIC
+
+An Instagram-inspired UI mockup built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.  
+This project focuses on **design and layout** as a creative exercise. It does not include full backend functionality (e.g., login, API, upload).  
+
+---
+
+## 🚀 Features
+- Instagram-like interface  
+- Built with React + TypeScript  
+- Styled with Tailwind CSS  
+- Fast development server using Vite  
+- Mock design only (no real backend)
+
+---
+
+## 📦 Prerequisites
+- [Node.js](https://nodejs.org/) (LTS recommended: 16.x or 18.x)  
+- npm (comes with Node.js)  
+
+---
+
+## ⚙️ Installation & Running
+
+```bash
+# Clone the repository
+git clone https://github.com/erica-monacillo/INSTAGRAM-MICMIC.git
+
+# Move into the project folder
+cd INSTAGRAM-MICMIC
+
+# Install dependencies
+npm install
+
+# Run in development mode (http://localhost:5173)
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+
+INSTAGRAM-MICMIC/
+├── public/              # Static assets
+├── src/                 # React + TypeScript source code
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Page-level components
+│   ├── App.tsx          # Main app entry
+│   └── main.tsx         # Entry point
+├── package.json         # Project metadata and dependencies
+├── tsconfig.json        # TypeScript configuration
+├── vite.config.ts       # Vite configuration
+├── tailwind.config.js   # Tailwind configuration
+└── postcss.config.js    # PostCSS configuration
 
