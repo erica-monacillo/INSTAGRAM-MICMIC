@@ -1,29 +1,18 @@
-## About The Project  
+## About the Project
 
-Instagram is one of the leading social media platforms globally, designed to connect people through photos, videos, and creative content. It offers users a seamless way to share moments, express creativity, and engage with a vibrant community.  
+**Instagram Micmic** is a school project created by ADET students as a design exercise inspired by Instagram.  
+It focuses on the **visual and structural aspects** of the platform, showcasing skills in UI design, layout, and collaborative development.  
 
-Instagram's vision is to foster creativity and bring people closer together by evolving its platform to meet the dynamic needs of its users.  
+⚠️ Note: This is a **frontend-only mockup** with no backend or real functionality.  
 
-This project, **Instagram Micmic**, was created for school purposes by ADET students. While it does not include actual functionalities, it serves as a creative representation and design exercise, highlighting the students' ability to conceptualize and present a user interface inspired by Instagram's core elements.  
+**Creators:**  
+- Erica Jieren Monacillo  
+- Jhey Gulde  
+- Shene Rose Suelo  
+- Rodrigo Arriba  
+- Jars Christian Lerio  
 
-### Project Creators  
-- **Erica Jieren Monacillo**  
-- **Jhey Gulde**  
-- **Shene Rose Suelo**  
-- **Rodrigo Arriba**  
-- **Jars Christian Lerio**  
-
-The project focuses on the visual and structural aspects of Instagram, providing an opportunity for the creators to demonstrate their skills in design, layout organization, and collaborative development. It serves as an educational project aimed at understanding application design principles rather than building a fully functional application.  
-
-## Instagram Micmic frontend
-
-This is the repository for the Instagram Micmic frontend.
-The base was created with React + TypeScript + Vite. It's written in React and Typescript.
-
-# INSTAGRAM-MICMIC
-
-An Instagram-inspired UI mockup built with **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.  
-This project focuses on **design and layout** as a creative exercise. It does not include full backend functionality (e.g., login, API, upload).  
+The frontend was built using **React, TypeScript, and Vite**, with a focus on clean and organized code. 
 
 ---
 
