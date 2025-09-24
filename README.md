@@ -14,6 +14,7 @@ It focuses on the **visual and structural aspects** of the platform, showcasing 
 
 The frontend was built using **React, TypeScript, and Vite**, with a focus on clean and organized code. 
 
+Sample Vercel: https://instagrammicmic.vercel.app/
 ---
 
 ## 🚀 Features
